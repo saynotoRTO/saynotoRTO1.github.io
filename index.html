@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Take Action Against RTO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+    button, a {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .copy-button {
+      background-color: #444;
+      color: white;
+    }
+    .email-button {
+      background-color: #0078D7;
+      color: white;
+    }
+    textarea {
+      width: 90%;
+      max-width: 800px;
+      height: 400px;
+      margin: 20px auto;
+      display: block;
+      padding: 20px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📢 Take Action Against Newsom’s RTO Mandate</h1>
+  <p>Click below to copy the email message, then send it using the group buttons.</p>
+
+  <textarea id="emailBody">
+Governor Newsom is presenting himself as a climate champion on the national stage — yet here in California, he’s quietly enforcing a policy that will increase greenhouse gas emissions, punish low-income communities, and roll back progress on equity and sustainability.
+
+His Return-to-Office (RTO) mandate for state workers forces tens of thousands of employees back into daily commutes — despite ample data showing telework significantly reduces emissions, traffic congestion, and strain on public infrastructure.
+
+This decision isn’t about public service. It’s about power and control — and it comes at the direct expense of California’s climate goals.
+
+Let’s be clear:
+
+• Thousands of additional cars on the road every weekday will massively increase air pollution.  
+• California’s legally mandated goal of reducing vehicle miles traveled is being blatantly undermined.  
+• Working women, especially mothers and caregivers, are being stripped of the flexibility that helped them succeed.  
+• Low-income workers are now forced to pay more for gas, childcare, and long commutes — all while losing hours of their day and quality of life.  
+• Communities already suffering the impacts of environmental racism will be disproportionately affected once again.
+
+This is environmental injustice. It is economic injustice. And it is a betrayal of everything California claims to stand for.
+
+The science is clear: telework works. The data is clear: emissions were down. The voices of workers are clear: they want flexibility, health, and fairness.
+
+Governor Newsom’s RTO mandate is a political maneuver dressed in bureaucracy — and it is costing lives, livelihoods, and our climate future.
+
+We urgently need your voice. Please consider:
+
+• Issuing a public statement against the RTO mandate  
+• Urging Governor Newsom and state leadership to reconsider  
+• Engaging the media and amplifying this climate equity issue now
+
+Environmental justice is not a slogan — it’s a commitment. Please speak out.
+  </textarea>
+
+  <button class="copy-button" onclick="copyEmail()">📋 Copy Email</button>
+
+  <br><br>
+  <h3>✉️ Send to Groups</h3>
+
+  <!-- Group 1 -->
+<a class="email-button" href="mailto:psullivan@biologicaldiversity.org;press@lastchancealliance.org;bayarea@sunrisemovement.org;california@poorpeoplescampaign.org;connect@greenpeace.us;info@psr-la.org;membership@psr-la.org;mhernandez@psr-la.org?subject=Dire Climate and Equity Consequences of Newsom's RTO Mandate">Email Group 1</a>
+
+<!-- Group 2 -->
+<a class="email-button" href="mailto:info@fossilfreeca.org;info@theclimatecenter.org;ryan@theclimatecenter.org;Sacejc2021@gmail.com;info@350sacramento.org;fridaysforfuturesac@gmail.com;office@ecosacramento.net?subject=Dire Climate and Equity Consequences of Newsom's RTO Mandate">Email Group 2</a>
+
+<!-- Group 3 -->
+<a class="email-button" href="mailto:ClimateActionNowCA@gmail.com;action@sunflower-alliance.org;info@climateactivistdefenders.org;help@climateactivistdefenders.org;support@actionnetwork.org;donations@sandiego350.org;SacPPC2019@gmail.com;sunrisemvmtsac@gmail.com?subject=Dire Climate and Equity Consequences of Newsom's RTO Mandate">Email Group 3</a>
+
+<!-- Group 4 -->
+<a class="email-button" href="mailto:fcladmin@fclca.org;kevan@fclca.org;dale@fclca.org;team@sunrisemovement.org;info@protectmontereycounty.org;info@lbace.org;california@tnc.org;CalEPAClimateAction@calepa.ca.gov;KoehnJill@saccounty.gov;media@climateworks.org;climatechange@lwvc.org;rkelly@edf.org?subject=Dire Climate and Equity Consequences of Newsom's RTO Mandate">Email Group 4</a>
+
+
+  <script>
+    function copyEmail() {
+      const text = document.getElementById("emailBody");
+      text.select();
+      text.setSelectionRange(0, 99999); // For mobile devices
+      document.execCommand("copy");
+      alert("Email copied to clipboard. Now click a group button to send it.");
+    }
+  </script>
+
+</body>
+</html>
